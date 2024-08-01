@@ -1,0 +1,124 @@
+@charset "UTF-8";
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+section#abertura{
+    background-color: #F9F7FA;
+    width: 99vw;
+    height: 600px;
+    font-family: "Ubuntu Mono",Arial, Helvetica, sans-serif;
+    position: relative;
+    
+}
+#abertura>div>h2{
+        font-size: 7em;
+        font-family:"Ubunto Mono"Arial, Helvetica, sans-serif;
+        
+}
+#abertura>div>p{
+    font-family: "Open Sans";
+    font-size: 2em;
+
+}
+#abertura>ul{
+    cursor: pointer;
+    display: inline-block;
+    position: absolute;
+    top: 85%;
+    left: 25%;
+    transform: translate(-50%,-50%);
+}
+#abertura>ul>li{
+display: inline-block;
+}
+
+div#texto1{
+    position: absolute;
+    display: inline-block;
+    top: 5%;
+    left: 13%;
+    transform: translate(-50%,-50%);
+    font-family: "Playfair Display SC", serif;
+    font-size: 1.5em;
+}
+div#texto2{
+    text-align: justify;
+    width: 825px;
+    display: inline-block;
+    position: absolute;
+    left: 27%;
+    top: 44%;
+    transform: translate(-50%,-50%);
+}
+div#img{
+    background-image: url(../imagens_projeto/background.jpg);
+    width: 650px;
+    height: 450px;
+    border-radius: 25px;
+    position: relative;
+    box-shadow: 0px 0px 7px #22222286;
+    left: 60%;
+    top: 15%;
+    
+}
+img.centro{
+    display: block;
+    margin: auto;
+    position: absolute;
+    left: 53%;
+    top:55.5%;
+    transform: translate(-50%,-50%);
+}
+section#habilidades{
+    background-color: #222222;
+    width: 99vw;
+    height: 60vh;
+    position: relative;
+    font-size: 1.5em;
+    color: white;
+    font-family: "Open Sans";
+}
+div#habilidades{
+    
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%,-50%);
+    text-align: justify;
+    width: 750px;
+    height: 450px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.281);
+    border-radius: 20px 0px 20px 0px;
+    box-shadow: 0px 0px 4px #f9f7fa8f;
+}
+div#habilidades>h2{
+text-align: center;
+font-size: 2em;
+}
+div#projetos{
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%,-50%);
+    text-align: justify;
+    width: 750px;
+    height: 450px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.281);
+    border-radius: 20px 0px 20px 0px;
+    box-shadow: 0px 0px 4px #f9f7fa8f;
+}
+div#projetos>h2{
+    text-align: center;
+    font-size: 2em;}
+
+footer{
+text-align: center;
+}
