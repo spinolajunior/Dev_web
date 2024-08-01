@@ -47,9 +47,11 @@ div#texto1 {
 }
 
 div#texto2 {
+    font-variant: small-caps;
     text-align: justify;
-    width: 100%;
-    margin: 20px 0;
+    width: 80vw;
+    padding: 10px;
+    min-width: 600px;
 }
 
 div#img {
